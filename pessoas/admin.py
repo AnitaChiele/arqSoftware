@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import StatusCliente, Cliente, StatusFuncionario, Funcionario
+from .models import StatusCliente, StatusFuncionario, Funcionario, Cliente
 
 admin.site.register(StatusCliente)
 admin.site.register(StatusFuncionario)

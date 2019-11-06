@@ -64,6 +64,8 @@ class Cliente(models.Model):
         max_length=250
     )
 
+    data_registro = models.DateField()
+
     status = models.ForeignKey(
         StatusCliente,
         verbose_name=_l('Status do Cliente'),
