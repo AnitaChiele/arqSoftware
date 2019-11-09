@@ -14,6 +14,7 @@ services:
     build: .
     command: >
       bash -c "./manage.py migrate &&
+               ./manage.py loaddata fixtures/all.json &&
                ./manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/code

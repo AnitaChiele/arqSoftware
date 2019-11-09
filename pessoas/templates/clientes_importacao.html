@@ -1,0 +1,24 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+
+{% block content %}
+    <h1>{% trans 'Importar arquivo' %}</h1>
+    <p>{% trans 'Importar arquivos de clientes' %}</p>
+
+    <form action="{% url 'clientes_import_file' %}" method="post" id="{{ opts.model_name }}_form" novalidate>
+        {% csrf_token %}
+
+        <fieldset class="module aligned {{ fieldset.classes }}">
+            <h2>{% trans 'Arquivo de importação' %}</h2>
+            <div class="form-row  field-importacao">
+                <div class="fieldBox field-importacao">
+                    <input type="file" name="arquivo_importacao" />
+                </div>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Salvar" class="default" name="_save">
+    </form>
+
+{% endblock %}
