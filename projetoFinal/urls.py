@@ -15,26 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from pessoas.views import clientes_importacao, clientes_import_file
 from quartos.views import limpar
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path(
-        'admin/pessoas/cliente/importar',
-        clientes_importacao,
-        name='clientes_importar'
-    ),
-    path(
-        'admin/pessoas/cliente/importacao',
-        clientes_import_file,
-        name='clientes_import_file'
-    ),
-    path(
         'admin/quartos/limpar',
         limpar,
         name="quartos_limpar"
     )
-    # url(r'^retorno/pagseguro/', include('pagseguro.urls')),
-    # a url de retorno será /retorno/pagseguro/
 ]
