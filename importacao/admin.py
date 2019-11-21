@@ -15,7 +15,7 @@ class ImportacaoAdmin(admin.ModelAdmin):
         with open(arquivo) as f:
             reader = csv.reader(
                 f,
-                delimiter=","
+                delimiter=";"
             )
 
             for i, row in enumerate(reader):
@@ -28,7 +28,6 @@ class ImportacaoAdmin(admin.ModelAdmin):
                     cliente.telefone = row[4]
                     cliente.endereco = row[5]
                     cliente.email = row[6]
-                    cliente.data_registro = row[7]
 
                     pk_status = int(row[8]) + 1
 

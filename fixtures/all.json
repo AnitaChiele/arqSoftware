@@ -1,1 +1,1174 @@
-[{"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "auth", "model": "user"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "pessoas", "model": "statuscliente"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "pessoas", "model": "statusfuncionario"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "pessoas", "model": "funcionario"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "pessoas", "model": "cliente"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "quartos", "model": "statusquarto"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "quartos", "model": "tipocama"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "quartos", "model": "quarto"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "quartos", "model": "camaquarto"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "reserva", "model": "statusreserva"}}, {"model": "contenttypes.contenttype", "pk": 16, "fields": {"app_label": "reserva", "model": "reserva"}}, {"model": "contenttypes.contenttype", "pk": 17, "fields": {"app_label": "importacao", "model": "importacao"}}, {"model": "sessions.session", "pk": "wz70t1ahrgdc546myrq1t1u9hd9h39kl", "fields": {"session_data": "Yzk1YzQ3YWZkMmFlN2YxNjdiOGQxZTczNDI3NmIzMDBmZTI2MGVkZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiMmJkNTlkYjFjNzA3NTZiZThkNWE3Zjk2ZTgyYmI3MzExMjlhOWQ2In0=", "expire_date": "2019-11-23T18:16:38.449Z"}}, {"model": "pessoas.statuscliente", "pk": 1, "fields": {"descricao": "Inativo"}}, {"model": "pessoas.statuscliente", "pk": 2, "fields": {"descricao": "Ativo"}}, {"model": "pessoas.statusfuncionario", "pk": 1, "fields": {"descricao": "Inativo"}}, {"model": "pessoas.statusfuncionario", "pk": 2, "fields": {"descricao": "Ativo"}}, {"model": "quartos.statusquarto", "pk": 1, "fields": {"descricao": "Limpar"}}, {"model": "quartos.statusquarto", "pk": 2, "fields": {"descricao": "Livre"}}, {"model": "quartos.statusquarto", "pk": 3, "fields": {"descricao": "Ocupado"}}, {"model": "quartos.quarto", "pk": 1, "fields": {"numero": 101, "status": 1}}, {"model": "quartos.tipocama", "pk": 1, "fields": {"descricao": "Casal"}}, {"model": "quartos.tipocama", "pk": 2, "fields": {"descricao": "Solteiro"}}, {"model": "quartos.camaquarto", "pk": 1, "fields": {"quarto": 1, "tipo_cama": 1, "quantidade": 1}}, {"model": "quartos.camaquarto", "pk": 2, "fields": {"quarto": 1, "tipo_cama": 2, "quantidade": 1}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add user", "content_type": 4, "codename": "add_user"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change user", "content_type": 4, "codename": "change_user"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete user", "content_type": 4, "codename": "delete_user"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view user", "content_type": 4, "codename": "view_user"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add content type", "content_type": 5, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change content type", "content_type": 5, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete content type", "content_type": 5, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view content type", "content_type": 5, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add session", "content_type": 6, "codename": "add_session"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change session", "content_type": 6, "codename": "change_session"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete session", "content_type": 6, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view session", "content_type": 6, "codename": "view_session"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add Status do cliente", "content_type": 7, "codename": "add_statuscliente"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change Status do cliente", "content_type": 7, "codename": "change_statuscliente"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete Status do cliente", "content_type": 7, "codename": "delete_statuscliente"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view Status do cliente", "content_type": 7, "codename": "view_statuscliente"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add Status do funcion\u00e1rio", "content_type": 8, "codename": "add_statusfuncionario"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change Status do funcion\u00e1rio", "content_type": 8, "codename": "change_statusfuncionario"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete Status do funcion\u00e1rio", "content_type": 8, "codename": "delete_statusfuncionario"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view Status do funcion\u00e1rio", "content_type": 8, "codename": "view_statusfuncionario"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add Funcion\u00e1rio", "content_type": 9, "codename": "add_funcionario"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change Funcion\u00e1rio", "content_type": 9, "codename": "change_funcionario"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete Funcion\u00e1rio", "content_type": 9, "codename": "delete_funcionario"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view Funcion\u00e1rio", "content_type": 9, "codename": "view_funcionario"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add Cliente", "content_type": 10, "codename": "add_cliente"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change Cliente", "content_type": 10, "codename": "change_cliente"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete Cliente", "content_type": 10, "codename": "delete_cliente"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view Cliente", "content_type": 10, "codename": "view_cliente"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add Status do quarto", "content_type": 11, "codename": "add_statusquarto"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change Status do quarto", "content_type": 11, "codename": "change_statusquarto"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete Status do quarto", "content_type": 11, "codename": "delete_statusquarto"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view Status do quarto", "content_type": 11, "codename": "view_statusquarto"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add Tipo da cama", "content_type": 12, "codename": "add_tipocama"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change Tipo da cama", "content_type": 12, "codename": "change_tipocama"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete Tipo da cama", "content_type": 12, "codename": "delete_tipocama"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view Tipo da cama", "content_type": 12, "codename": "view_tipocama"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add Quarto", "content_type": 13, "codename": "add_quarto"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change Quarto", "content_type": 13, "codename": "change_quarto"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete Quarto", "content_type": 13, "codename": "delete_quarto"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view Quarto", "content_type": 13, "codename": "view_quarto"}}, {"model": "auth.permission", "pk": 53, "fields": {"name": "Can add Camas do quarto", "content_type": 14, "codename": "add_camaquarto"}}, {"model": "auth.permission", "pk": 54, "fields": {"name": "Can change Camas do quarto", "content_type": 14, "codename": "change_camaquarto"}}, {"model": "auth.permission", "pk": 55, "fields": {"name": "Can delete Camas do quarto", "content_type": 14, "codename": "delete_camaquarto"}}, {"model": "auth.permission", "pk": 56, "fields": {"name": "Can view Camas do quarto", "content_type": 14, "codename": "view_camaquarto"}}, {"model": "auth.permission", "pk": 57, "fields": {"name": "Can add Status do reserva", "content_type": 15, "codename": "add_statusreserva"}}, {"model": "auth.permission", "pk": 58, "fields": {"name": "Can change Status do reserva", "content_type": 15, "codename": "change_statusreserva"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete Status do reserva", "content_type": 15, "codename": "delete_statusreserva"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view Status do reserva", "content_type": 15, "codename": "view_statusreserva"}}, {"model": "auth.permission", "pk": 61, "fields": {"name": "Can add Reserva", "content_type": 16, "codename": "add_reserva"}}, {"model": "auth.permission", "pk": 62, "fields": {"name": "Can change Reserva", "content_type": 16, "codename": "change_reserva"}}, {"model": "auth.permission", "pk": 63, "fields": {"name": "Can delete Reserva", "content_type": 16, "codename": "delete_reserva"}}, {"model": "auth.permission", "pk": 64, "fields": {"name": "Can view Reserva", "content_type": 16, "codename": "view_reserva"}}, {"model": "auth.permission", "pk": 65, "fields": {"name": "Can add Importa\u00e7\u00e3o", "content_type": 17, "codename": "add_importacao"}}, {"model": "auth.permission", "pk": 66, "fields": {"name": "Can change Importa\u00e7\u00e3o", "content_type": 17, "codename": "change_importacao"}}, {"model": "auth.permission", "pk": 67, "fields": {"name": "Can delete Importa\u00e7\u00e3o", "content_type": 17, "codename": "delete_importacao"}}, {"model": "auth.permission", "pk": 68, "fields": {"name": "Can view Importa\u00e7\u00e3o", "content_type": 17, "codename": "view_importacao"}}, {"model": "auth.user", "pk": 1, "fields": {"password": "pbkdf2_sha256$150000$rACr8S52aJz1$K0/8VPa5FOgUNCBTaBEzxl+x9WgJ++dPSxaxmIpUdgI=", "last_login": "2019-11-09T18:16:38.446Z", "is_superuser": true, "username": "admin", "first_name": "", "last_name": "", "email": "anita.lps@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2019-11-09T18:16:29.410Z", "groups": [], "user_permissions": []}}, {"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2019-11-09T18:16:50.271Z", "user": 1, "content_type": 11, "object_id": "1", "object_repr": "Limpar", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2019-11-09T18:16:57.489Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "Livre", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2019-11-09T18:17:00.545Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "Ocupado", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2019-11-09T18:17:15.633Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "Inativo", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2019-11-09T18:17:19.167Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "Ativo", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2019-11-09T18:17:24.947Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "Inativo", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2019-11-09T18:17:29.963Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "Ativo", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2019-11-09T18:17:49.609Z", "user": 1, "content_type": 12, "object_id": "1", "object_repr": "Casal", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2019-11-09T18:17:56.542Z", "user": 1, "content_type": 12, "object_id": "2", "object_repr": "Solteiro", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2019-11-09T18:17:58.303Z", "user": 1, "content_type": 13, "object_id": "1", "object_repr": "101", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Camas do quarto\", \"object\": \"101\"}}, {\"added\": {\"name\": \"Camas do quarto\", \"object\": \"101\"}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2019-11-09T18:18:06.301Z", "user": 1, "content_type": 13, "object_id": "1", "object_repr": "101", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"}}]
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "pessoas",
+        "model": "statuscliente"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "pessoas",
+        "model": "statusfuncionario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "pessoas",
+        "model": "funcionario"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "pessoas",
+        "model": "cliente"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "quartos",
+        "model": "statusquarto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "quartos",
+        "model": "tipocama"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "quartos",
+        "model": "quarto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "quartos",
+        "model": "camaquarto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "reserva",
+        "model": "statusreserva"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "reserva",
+        "model": "reserva"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "importacao",
+        "model": "importacao"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fkb6wvuuoaj3gk296swx8wbg8bov6yna",
+    "fields": {
+        "session_data": "Yzk1YzQ3YWZkMmFlN2YxNjdiOGQxZTczNDI3NmIzMDBmZTI2MGVkZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiMmJkNTlkYjFjNzA3NTZiZThkNWE3Zjk2ZTgyYmI3MzExMjlhOWQ2In0=",
+        "expire_date": "2019-11-25T23:36:00.424Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wz70t1ahrgdc546myrq1t1u9hd9h39kl",
+    "fields": {
+        "session_data": "Yzk1YzQ3YWZkMmFlN2YxNjdiOGQxZTczNDI3NmIzMDBmZTI2MGVkZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiMmJkNTlkYjFjNzA3NTZiZThkNWE3Zjk2ZTgyYmI3MzExMjlhOWQ2In0=",
+        "expire_date": "2019-11-23T18:16:38.449Z"
+    }
+},
+{
+    "model": "pessoas.statuscliente",
+    "pk": 1,
+    "fields": {
+        "descricao": "Inativo"
+    }
+},
+{
+    "model": "pessoas.statuscliente",
+    "pk": 2,
+    "fields": {
+        "descricao": "Ativo"
+    }
+},
+{
+    "model": "pessoas.statusfuncionario",
+    "pk": 1,
+    "fields": {
+        "descricao": "Inativo"
+    }
+},
+{
+    "model": "pessoas.statusfuncionario",
+    "pk": 2,
+    "fields": {
+        "descricao": "Ativo"
+    }
+},
+{
+    "model": "pessoas.cliente",
+    "pk": 1,
+    "fields": {
+        "nome": "Cliente 01",
+        "data_nascimento": "2010-01-01",
+        "cpf": "6546546",
+        "telefone": "6546546",
+        "enedereco": "asdf",
+        "email": "asdf@asdf.com",
+        "status": 2
+    }
+},
+{
+    "model": "quartos.statusquarto",
+    "pk": 1,
+    "fields": {
+        "descricao": "Limpar"
+    }
+},
+{
+    "model": "quartos.statusquarto",
+    "pk": 2,
+    "fields": {
+        "descricao": "Livre"
+    }
+},
+{
+    "model": "quartos.statusquarto",
+    "pk": 3,
+    "fields": {
+        "descricao": "Ocupado"
+    }
+},
+{
+    "model": "quartos.quarto",
+    "pk": 1,
+    "fields": {
+        "numero": 101,
+        "status": 1
+    }
+},
+{
+    "model": "quartos.tipocama",
+    "pk": 1,
+    "fields": {
+        "descricao": "Casal"
+    }
+},
+{
+    "model": "quartos.tipocama",
+    "pk": 2,
+    "fields": {
+        "descricao": "Solteiro"
+    }
+},
+{
+    "model": "quartos.camaquarto",
+    "pk": 1,
+    "fields": {
+        "quarto": 1,
+        "tipo_cama": 1,
+        "quantidade": 1
+    }
+},
+{
+    "model": "quartos.camaquarto",
+    "pk": 2,
+    "fields": {
+        "quarto": 1,
+        "tipo_cama": 2,
+        "quantidade": 1
+    }
+},
+{
+    "model": "reserva.statusreserva",
+    "pk": 1,
+    "fields": {
+        "descricao": "Em andamento"
+    }
+},
+{
+    "model": "reserva.statusreserva",
+    "pk": 2,
+    "fields": {
+        "descricao": "Paga"
+    }
+},
+{
+    "model": "reserva.reserva",
+    "pk": 1,
+    "fields": {
+        "quarto": 1,
+        "cliente": 1,
+        "data_entrada": "2019-11-18",
+        "data_saida": "2019-11-25",
+        "hora_checkin": "20:52:15",
+        "hora_checkout": null,
+        "status": 1,
+        "preco": "20.00"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Status do cliente",
+        "content_type": 7,
+        "codename": "add_statuscliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Status do cliente",
+        "content_type": 7,
+        "codename": "change_statuscliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Status do cliente",
+        "content_type": 7,
+        "codename": "delete_statuscliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Status do cliente",
+        "content_type": 7,
+        "codename": "view_statuscliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Status do funcion\u00e1rio",
+        "content_type": 8,
+        "codename": "add_statusfuncionario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Status do funcion\u00e1rio",
+        "content_type": 8,
+        "codename": "change_statusfuncionario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Status do funcion\u00e1rio",
+        "content_type": 8,
+        "codename": "delete_statusfuncionario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Status do funcion\u00e1rio",
+        "content_type": 8,
+        "codename": "view_statusfuncionario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Funcion\u00e1rio",
+        "content_type": 9,
+        "codename": "add_funcionario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Funcion\u00e1rio",
+        "content_type": 9,
+        "codename": "change_funcionario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Funcion\u00e1rio",
+        "content_type": 9,
+        "codename": "delete_funcionario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Funcion\u00e1rio",
+        "content_type": 9,
+        "codename": "view_funcionario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Cliente",
+        "content_type": 10,
+        "codename": "add_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Cliente",
+        "content_type": 10,
+        "codename": "change_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Cliente",
+        "content_type": 10,
+        "codename": "delete_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Cliente",
+        "content_type": 10,
+        "codename": "view_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add Status do quarto",
+        "content_type": 11,
+        "codename": "add_statusquarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change Status do quarto",
+        "content_type": 11,
+        "codename": "change_statusquarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete Status do quarto",
+        "content_type": 11,
+        "codename": "delete_statusquarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view Status do quarto",
+        "content_type": 11,
+        "codename": "view_statusquarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add Tipo da cama",
+        "content_type": 12,
+        "codename": "add_tipocama"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change Tipo da cama",
+        "content_type": 12,
+        "codename": "change_tipocama"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete Tipo da cama",
+        "content_type": 12,
+        "codename": "delete_tipocama"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view Tipo da cama",
+        "content_type": 12,
+        "codename": "view_tipocama"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add Quarto",
+        "content_type": 13,
+        "codename": "add_quarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change Quarto",
+        "content_type": 13,
+        "codename": "change_quarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete Quarto",
+        "content_type": 13,
+        "codename": "delete_quarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view Quarto",
+        "content_type": 13,
+        "codename": "view_quarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add Camas do quarto",
+        "content_type": 14,
+        "codename": "add_camaquarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change Camas do quarto",
+        "content_type": 14,
+        "codename": "change_camaquarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete Camas do quarto",
+        "content_type": 14,
+        "codename": "delete_camaquarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view Camas do quarto",
+        "content_type": 14,
+        "codename": "view_camaquarto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add Status do reserva",
+        "content_type": 15,
+        "codename": "add_statusreserva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change Status do reserva",
+        "content_type": 15,
+        "codename": "change_statusreserva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete Status do reserva",
+        "content_type": 15,
+        "codename": "delete_statusreserva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view Status do reserva",
+        "content_type": 15,
+        "codename": "view_statusreserva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add Reserva",
+        "content_type": 16,
+        "codename": "add_reserva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change Reserva",
+        "content_type": 16,
+        "codename": "change_reserva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete Reserva",
+        "content_type": 16,
+        "codename": "delete_reserva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view Reserva",
+        "content_type": 16,
+        "codename": "view_reserva"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add Importa\u00e7\u00e3o",
+        "content_type": 17,
+        "codename": "add_importacao"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change Importa\u00e7\u00e3o",
+        "content_type": 17,
+        "codename": "change_importacao"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete Importa\u00e7\u00e3o",
+        "content_type": 17,
+        "codename": "delete_importacao"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view Importa\u00e7\u00e3o",
+        "content_type": 17,
+        "codename": "view_importacao"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$rACr8S52aJz1$K0/8VPa5FOgUNCBTaBEzxl+x9WgJ++dPSxaxmIpUdgI=",
+        "last_login": "2019-11-09T18:16:38.446Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "anita.lps@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-11-09T18:16:29.410Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2019-11-09T18:16:50.271Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "Limpar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2019-11-09T18:16:57.489Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Livre",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2019-11-09T18:17:00.545Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Ocupado",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2019-11-09T18:17:15.633Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Inativo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2019-11-09T18:17:19.167Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Ativo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2019-11-09T18:17:24.947Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Inativo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2019-11-09T18:17:29.963Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Ativo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2019-11-09T18:17:49.609Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Casal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2019-11-09T18:17:56.542Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "Solteiro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2019-11-09T18:17:58.303Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "101",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Camas do quarto\", \"object\": \"101\"}}, {\"added\": {\"name\": \"Camas do quarto\", \"object\": \"101\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2019-11-09T18:18:06.301Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "101",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2019-11-18T23:52:02.977Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Cliente 01",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2019-11-18T23:52:32.359Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Em andamento",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2019-11-18T23:52:40.024Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2019-11-19T00:11:58.419Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2019-11-19T00:12:51.981Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2019-11-19T00:13:39.583Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2019-11-19T00:44:23.528Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2019-11-19T00:49:04.928Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2019-11-20T23:25:16.745Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Paga",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]

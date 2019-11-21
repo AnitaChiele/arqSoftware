@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils.translation import gettext as _l
-# from django.core.validators import MinValueValidator
+from django.core.validators import MinValueValidator
 from quartos.models import Quarto
 from pessoas.models import Cliente
 
@@ -55,4 +55,11 @@ class Reserva(models.Model):
     status = models.ForeignKey(
         StatusReserva,
         on_delete=models.PROTECT
+    )
+
+    preco = models.DecimalField(
+        verbose_name=_l('Preço'),
+        max_digits=10,
+        decimal_places=2,
+        validators=[MinValueValidator(0.01)]
     )

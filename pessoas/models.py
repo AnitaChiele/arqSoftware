@@ -49,11 +49,11 @@ class Cliente(models.Model):
     data_nascimento = models.DateField()
 
     cpf = models.CharField(
-        max_length=11
+        max_length=110
     )
 
     telefone = models.CharField(
-        max_length=11
+        max_length=110
     )
 
     enedereco = models.CharField(
@@ -63,8 +63,6 @@ class Cliente(models.Model):
     email = models.CharField(
         max_length=250
     )
-
-    data_registro = models.DateField()
 
     status = models.ForeignKey(
         StatusCliente,
