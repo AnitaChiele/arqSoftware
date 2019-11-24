@@ -36,6 +36,7 @@ class Reserva(models.Model):
 
     cliente = models.ForeignKey(
         Cliente,
+        limit_choices_to={'status__descricao': 'Ativo'},
         on_delete=models.PROTECT
     )
 
