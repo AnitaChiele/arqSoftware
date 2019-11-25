@@ -16,6 +16,5 @@ Acessar a url que é impressa no terminal geralmente é:
 Admin:
 [http://localhost:8000/admin/](http://localhost:8000/admin/)
 
-Usuário do admin:
-admin
-1q2w3e4r
+Usuário: admin
+Senha: 1q2w3e4r
