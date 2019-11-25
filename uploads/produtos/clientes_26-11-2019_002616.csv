@@ -1,0 +1,5 @@
+id;nome;cpf;telefone;endereco;email;status
+1;"RAFAEL ESPINDOLA MAIZONAVE";851.661.970-20;"(51) 9841-7535";"Rua dos Maias,1335, Rubem Berta Porto Alegre-RS";rafael.maizonave@gmail.com;1
+2;"MATHEUS MATTANA";851.661.970-20;"(67) 6767-6767";"Avenida Presidente Getúlio Vargas,1158, Bela Vista Alvorada-RS";rafael.maizonave@gmail.com;0
+3;"GABRIELA DA ROSA NETO";999.999.999-99;"(99) 9999-9999";"Rua Ledo Guimarães Mariante,140, Jardim Leopoldina Porto Alegre-RS";gabrieladarosaneto@gmail.com;0
+4;"JAIME GROSS";854.478.787-98;"(51) 9878-7874";"Rua dos Maias,1825, Rubem Berta Porto Alegre-RS";jaime.gros@gmail.com;1
