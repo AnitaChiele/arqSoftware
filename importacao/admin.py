@@ -23,13 +23,12 @@ class ImportacaoAdmin(admin.ModelAdmin):
                     cliente = Cliente()
                     cliente.pk = row[0]
                     cliente.nome = row[1]
-                    cliente.data_nascimento = row[2]
-                    cliente.cpf = row[3]
-                    cliente.telefone = row[4]
-                    cliente.endereco = row[5]
-                    cliente.email = row[6]
+                    cliente.cpf = row[2]
+                    cliente.telefone = row[3]
+                    cliente.endereco = row[4]
+                    cliente.email = row[5]
 
-                    pk_status = int(row[8]) + 1
+                    pk_status = int(row[6]) + 1
 
                     status_cliente = StatusCliente.objects.filter(
                         pk=pk_status

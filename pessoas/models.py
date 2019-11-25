@@ -46,7 +46,10 @@ class Cliente(models.Model):
         max_length=150
     )
 
-    data_nascimento = models.DateField()
+    data_nascimento = models.DateField(
+        blank=True,
+        null=True
+    )
 
     cpf = models.CharField(
         max_length=110
