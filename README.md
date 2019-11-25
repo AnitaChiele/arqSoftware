@@ -5,17 +5,17 @@ Fazer up do container:
 
 `$ sudo docker-compose up`
 
+A primeira vez é necessário fazer duas vezes o comando acima.
+Ele ficará "preso" no container do db, aí aperta ctrl + c e repita o comando:
+
+`$ sudo docker-compose up`
+
 Acessar a url que é impressa no terminal geralmente é:
 [http://localhost:8000/](http://localhost:8000/)
 
 Admin:
 [http://localhost:8000/admin/](http://localhost:8000/admin/)
 
-Para cadastrar novo usuário é necessário entrar no container:
-`$ sudo docker exec -it arqsoftware_web_1 /bin/bash`
-
-Rodar:
-`$ ./manage.py createsuperuser`
-> Em caso de erro rode o comando por extenso: `$ python manage.py createsuperuser`
-
-Usar os dados criado no passo anterior para se logar no admin.
+Usuário do admin:
+admin
+1q2w3e4r
